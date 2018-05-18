@@ -148,6 +148,23 @@ data$Latitude[which(data$Lake.Name=="Lake Biwa")]<-
 data$Longitude[which(data$Lake.Name=="Lake Baikal")]<-
   -1.0+data$Longitude[which(data$Lake.Name=="Lake Baikal")]
 
+#contracting bounding boxes for small lakes
+data$Longitude[which(data$Lake.Name=="Lake Pingualuit")] <- (data$Longitude[which(data$Lake.Name=="Lake Pingualuit")]+data$Longitude[which(data$Lake.Name=="Lake Pingualuit")][1])/2
+data$Latitude[which(data$Lake.Name=="Lake Pingualuit")] <- (data$Latitude[which(data$Lake.Name=="Lake Pingualuit")]+data$Latitude[which(data$Lake.Name=="Lake Pingualuit")][1])/2
+
+data$Longitude[which(data$Lake.Name=="Lake Potrok-Aike")] <- (data$Longitude[which(data$Lake.Name=="Lake Potrok-Aike")]+data$Longitude[which(data$Lake.Name=="Lake Potrok-Aike")][1])/2
+data$Latitude[which(data$Lake.Name=="Lake Potrok-Aike")] <- (data$Latitude[which(data$Lake.Name=="Lake Potrok-Aike")]+data$Latitude[which(data$Lake.Name=="Lake Potrok-Aike")][1])/2
+
+data$Longitude[which(data$Lake.Name=="Lake Tule")] <- (data$Longitude[which(data$Lake.Name=="Lake Tule")]+data$Longitude[which(data$Lake.Name=="Lake Tule")][1])/2
+data$Latitude[which(data$Lake.Name=="Lake Tule")] <- (data$Latitude[which(data$Lake.Name=="Lake Tule")]+data$Latitude[which(data$Lake.Name=="Lake Tule")][1])/2
+
+data$Longitude[which(data$Lake.Name=="Lake Bosumtwi")] <- (data$Longitude[which(data$Lake.Name=="Lake Bosumtwi")]+data$Longitude[which(data$Lake.Name=="Lake Bosumtwi")][1])/2
+data$Latitude[which(data$Lake.Name=="Lake Bosumtwi")] <- (data$Latitude[which(data$Lake.Name=="Lake Bosumtwi")]+data$Latitude[which(data$Lake.Name=="Lake Bosumtwi")][1])/2
+
+data$Longitude[which(data$Lake.Name=="Lake Inle")] <- (data$Longitude[which(data$Lake.Name=="Lake Inle")]+data$Longitude[which(data$Lake.Name=="Lake Inle")][1])/2
+data$Latitude[which(data$Lake.Name=="Lake Inle")] <- (data$Latitude[which(data$Lake.Name=="Lake Inle")]+data$Latitude[which(data$Lake.Name=="Lake Inle")][1])/2
+
+
 #classify lakes
 
 reg_lakes_12 <- c("BOSU", "ELGY", "PING",
@@ -282,7 +299,7 @@ assign(paste("plot",i,sep=""),mpi)
 }
 
 #arrange all plots
-png(filename="lake_shapes_figure.png",height=10,width=11,units="in",res=600)
+png(filename="lake_shapes_figure_test.png",height=10,width=11,units="in",res=600)
 grid.arrange(plot1,plot2,plot3,plot4,plot5,
              plot6,plot7,plot8,plot9,plot10,
              plot11,plot12,plot13,plot14,plot15,
