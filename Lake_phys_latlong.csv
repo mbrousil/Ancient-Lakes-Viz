@@ -1,0 +1,30 @@
+Lake Name,Code,Latitude,Longitude,Region,Country,Form,Outflow,orig_order,new_order,size
+Lake Bosumtwi,BOSU,6.505,-1.4083,Africa,Ghana,crater,closed,4,1,1
+Lake Elgygytgyn,ELGY,67.4909,172.0868,Siberia,Russia,crater,open,6,2,1
+Lake Pingualuit,PING,61.275,-73.6603,North America,Canada,crater,closed,18,3,1
+Manicouagan Reservoir,MANI,51.2722,-68.3265,Quebec,Canada,crater,open,14,4,1.5
+Lake Potrok-Aike,POTR,-51.9631,-70.3794,South America,Argentina,maar,closed,20,5,1
+Lake Baikal,BAIK,53.5,108,Siberia,Russia,rift,open,2,6,2.85
+Lake Hovsgol (Khuvsgul),HOVS,51.1,100.5,Middle Asia,Mongolia,rift,open,8,7,1.5
+Lake Inle,INLE,20.55,96.9167,South Asia,Myanmar (Burma),rift,open,9,8,1
+Lake Kinneret (Sea of Galilee),KINN,32.8333,35.5833,Middle East,Israel,rift,open,11,9,1
+Lake Lanao,LANA,7.8811,124.2631,South Asia,Philippines,rift,open,12,10,1
+"Lake Malawi (Nyasa, Niassa)",MALA,-12.1833,34.3667,East African Rift,Malawi/Mozambique/Tanzania,rift,open,13,11,3
+Lake Tanganyika,TANG,-6.5,29.8333,East African Rift,Tanzania/ DR Congo/ Burundi/ Zambia,rift,open,23,12,3
+Aral Sea,ARAL,45.1605,58.5265,Middle East,Kazakhstan/Uzbekistan,saline,closed,1,13,3
+Caspian Sea,CASP,41.6667,50.6667,Middle East,Kazakhstan/Russia/Azerbaijan/Iran/ Turkmenistan,saline,closed,5,14,5
+Lake Eyre,EYRE,-28.3667,137.3667,South Pacific,Australia,saline,closed,7,15,2
+Lake Issyk-Kul,ISSY,42.4167,77.25,Middle East,Kyrgyzstan,saline,closed,10,16,1.5
+Lake Van,VANL,38.6333,42.8167,Middle East,Turkey,saline,closed,27,17,1.5
+Lake Biwa,BIWA,35.3333,136.1667,South Pacific,Japan,tectonic,open,3,18,1.1
+Lake Maracaibo,MARA,9.8158,-71.5567,South America,Venezuela,tectonic,open,15,19,1.75
+Lake Matano,MATA,-2.4853,121.333,South Pacific,Indonesia,tectonic,open,16,20,1
+Lake Ohrid,OHRI,41,20.75,Balkans,Macedonia/Albania,tectonic,open,17,21,1
+Lake Poso,POSO,-1.9244,120.6167,South Pacific,Indonesia,tectonic,open,19,22,1
+Lake Prespa,PRES,40.9,21.0333,Balkans,Albania/Greece/Macedonia,tectonic,open (subsurface) ,21,23,1
+Lake Tahoe,TAHO,39.0917,-120.0417,North America,USA,tectonic,open ,22,24,1
+Lake Titicaca,TITI,-15.75,-69.4167,Andes,Peru/ Bolivia,tectonic,open,24,25,1.75
+Lake Tule,TULE,41.9013,-121.525,North America,USA,tectonic,closed,25,26,1
+Lake Valencia,VALE,10.1939,-67.7316,South America,Venezuela,tectonic,closed,26,27,1
+Lake Victoria,VICT,-1,33,Africa,Kenya/Uganda/Tanzania,tectonic,open,28,28,2.5
+Lake Zaysan,ZAYS,48,84,Middle East,Kazakhstan,tectonic,open,29,29,1.5
